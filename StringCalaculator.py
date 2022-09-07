@@ -5,7 +5,7 @@ def find_sum(str1):
     for i in  result:
         if(i<0):
             return "negative not allowed"
-              break
+            break
         else:
             sum+=i
     return sum
