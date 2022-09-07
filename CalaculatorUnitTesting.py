@@ -13,7 +13,7 @@ class TestCalci(unittest.TestCase):
     def test_delimiter(self):
         self.assertEqual(StringCalaculator.find_sum("//;\n1;2"),3)
     def test_greater_than_1000(self):
-        self.assertEqual(StringCalaculator.find_sum("3,1005"),3)
+        self.assertEqual(StringCalaculator.find_sum("4,1005"),4)
 
 if __name__ == '__main__':
     unittest.main()
